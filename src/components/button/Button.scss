@@ -7,12 +7,14 @@
   font-weight: 700;
   width: max-content;
   padding: 13px 22px;
-  margin-right: 50px;
+  margin-right: 16px; /* reduced */
   text-transform: uppercase;
   border-radius: 6px;
   text-align: center;
   text-decoration: none;
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
   font-size: 1rem;
   cursor: pointer;
@@ -40,8 +42,9 @@
     margin-right: 0px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .main-button {
-    font-size: 0.75rem;
+    width: 100%;
+    max-width: 340px;
   }
 }

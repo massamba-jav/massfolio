@@ -156,7 +156,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Flutter",
-      fontAwesomeClassname: "fas fa-mobile-alt"
+      fontAwesomeClassname: "fa-brands fa-flutter"
     },
     {
       skillName: "React Native",
@@ -164,7 +164,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Dart",
-      fontAwesomeClassname: "fas fa-code"
+      fontAwesomeClassname: "fa-brands fa-dart-lang"
     },
     {
       skillName: "C#",
@@ -172,7 +172,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "C",
-      fontAwesomeClassname: "fas fa-terminal"
+      fontAwesomeClassname: "fa-solid fa-c"
     },
     {
       skillName: "php",

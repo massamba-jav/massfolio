@@ -25,9 +25,7 @@ export default function Contact() {
               {contactInfo.subtitle}
             </p>
             <div
-              className={
-                isDark ? "dark-mode contact-text-div" : "contact-text-div"
-              }
+              className={isDark ? "dark-mode contact-text-div" : "contact-text-div"}
             >
               {contactInfo.number && (
                 <>
@@ -43,7 +41,12 @@ export default function Contact() {
               )}
               <a
                 className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
+                href={
+                  "https://mail.google.com/mail/?view=cm&fs=1&to=" +
+                  encodeURIComponent(contactInfo.email_address) + "&su=Let's%20Connect&body=Hello%20" 
+                }
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {contactInfo.email_address}
               </a>

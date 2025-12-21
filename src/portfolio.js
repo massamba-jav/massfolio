@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Massamba Diagne",
-  title: "Hi y'all, I'm Massamba",
+  title: "Salut, je suis Massamba",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Un développeur Full Stack passionné 🚀, j'ai acquis de l'expérience dans la création d'applications web et mobiles avec JavaScript, React, Node.js, Flutter et d'autres bibliothèques et frameworks sympas."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1FDURM3kOOx8yrmSyBIs66niX4qvRIdwc/view?usp=drivesdk", // Set to empty to hide the button
@@ -51,15 +51,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Ce que je fais",
+  subTitle: "DÉVELOPPEUR FULL STACK CURIEUX, TOUJOURS PRÊT À EXPLORER DE NOUVEAUX STACKS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Concevoir des interfaces utilisateur interactives pour le web et le mobile"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Applications Web Progressives (PWA) et single-page apps (SPA)"),
     emoji(
-      "⚡ Integration of third party services such as Firebase"
+      "⚡ Intégration de services tiers comme Firebase"
     )
   ],
 
@@ -194,17 +194,17 @@ const educationInfo = {
     {
       schoolName: "Amadou Hampaté Bâ University",
       logo: require("./assets/images/uahbLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "November 2023 - Present",
+      subHeader: "Licence en Informatique",
+      duration: "Novembre 2023 - Présent",
       desc: "",
       descBullets: []
     },
     {
       schoolName: "Cours Sainte Marie de Hann",
       logo: require("./assets/images/csmhLogo.jpeg"),
-      subHeader: "Science baccalaureate ( S 1 )",
-      duration: "July 2023",
-      desc: "Graduated with basic Class Honors.",
+      subHeader: "Baccalauréat scientifique ( S 1 )",
+      duration: "Juillet 2023",
+      desc: "Diplômé avec mention passable.",
       descBullets: []
     }
   ]
@@ -275,13 +275,13 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME OF MY BIG PROJECTS THAT I HAVE DONE ON MY OWN",
+  title: "Projets majeurs",
+  subtitle: "Certains de mes projets importants réalisés en autonomie",
   projects: [
     {
       image: require("./assets/images/maxitLogo.png"),
       projectName: "Max it SN",
-      projectDesc: "I have made a clone of max it senegal using flutter",
+      projectDesc: "Clone de Max It Sénégal développé en Flutter",
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -293,7 +293,7 @@ const bigProjects = {
     {
       image: require("./assets/images/corrixaiLogo.png"),
       projectName: "Corrix AI",
-      projectDesc: "An AI ChatBot based on groq api services",
+      projectDesc: "Chatbot IA basé sur les services GROQ",
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -309,21 +309,20 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Réalisations et Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certificats, distinctions et autres accomplissements marquants que j'ai obtenus.",
 
   achievementsCards: [
     {
       title: "Harvard University Cs50p",
       subtitle:
-      //provide a brief description achievements done in introduction to programming with python precise its about python in the subtitle
-        "Introduction to Programming with Python",
+        "Introduction à la programmation avec Python",
       image: require("./assets/images/harvardLogo.png"),
       imageAlt: "Harvard University Logo",
       footerLink: [
         {
-          name: "See Certification",
+          name: "Voir le certificat",
           url: "https://bit.ly/4oEP35k"
         }
       ]
@@ -337,7 +336,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to read and discuss with others what I have learnt.",
+    "Avec passion pour créer de belles choses ; j'aime lire et échanger sur ce que j'apprends.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -353,9 +352,9 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Conférences",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "J'AIME PARTAGER MES CONNAISSANCES, MÊME SI ELLES SONT LIMITÉES 😅"
   ),
 
   talks: [
@@ -373,7 +372,7 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "J'AIME PARLER DE MOI ET DE LA TECHNOLOGIE",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
@@ -384,17 +383,17 @@ const podcastSection = {
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
-  subtitle: "Feel free to download my resume",
+  title: "CV",
+  subtitle: "N'hésitez pas à télécharger mon CV",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contactez-moi ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Discuter d'un projet ou simplement dire bonjour ? Ma boîte est ouverte.",
   number: "+221-784705876",
   email_address: "masscompte133@gmail.com"
 };

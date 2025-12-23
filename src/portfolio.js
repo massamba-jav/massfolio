@@ -23,7 +23,7 @@ const greeting = {
   username: "Massamba Diagne",
   title: "Salut, je suis Massamba",
   subTitle: emoji(
-    "Un développeur Full Stack passionné 🚀, j'ai acquis de l'expérience dans la création d'applications web et mobiles avec JavaScript, React, Node.js, Flutter et d'autres bibliothèques et frameworks sympas."
+    "Un développeur Full Stack passionné 🚀, j'ai acquis de l'expérience dans la création d'applications web et mobiles avec JavaScript, React, Flutter et d'autres bibliothèques et frameworks sympas."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1FDURM3kOOx8yrmSyBIs66niX4qvRIdwc/view?usp=drivesdk", // Set to empty to hide the button
@@ -194,17 +194,17 @@ const educationInfo = {
     {
       schoolName: "Amadou Hampaté Bâ University",
       logo: require("./assets/images/uahbLogo.png"),
-      subHeader: "Licence en Informatique",
-      duration: "Novembre 2023 - Présent",
-      desc: "",
+      subHeader: "Licence en Science et Technologies de l'Information et de la Communication",
+      duration: "Spécialité Informatique",
+      desc: "Novembre 2023 - Présent",
       descBullets: []
     },
     {
       schoolName: "Cours Sainte Marie de Hann",
       logo: require("./assets/images/csmhLogo.jpeg"),
       subHeader: "Baccalauréat scientifique ( S 1 )",
-      duration: "Juillet 2023",
-      desc: "Diplômé avec mention passable.",
+      duration: "",
+      desc: "Juillet 2023",
       descBullets: []
     }
   ]

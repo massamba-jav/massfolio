@@ -105,6 +105,26 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
+    {
+      skillName: "NoSQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Express",
+      fontAwesomeClassname: "fas fa-server"
+    },
     /*
     {
       skillName: "aws",
@@ -279,6 +299,18 @@ const bigProjects = {
   subtitle: "Certains de mes projets importants réalisés en autonomie",
   projects: [
     {
+      image: require("./assets/images/thumblifyLogo.jpg"),
+      projectName: "Thumblify",
+      projectDesc: "Application de génération de miniatures de vidéos avec IA , développée avec MERN Stack",
+      footerLink: [
+        {
+          name: "Visiter le site",
+          url: "https://thumblify-six.vercel.app/"
+        }
+          // you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/maxitLogo.png"),
       projectName: "Max it SN",
       projectDesc: "Clone de Max It Sénégal développé en Flutter",
@@ -289,6 +321,18 @@ const bigProjects = {
       //   }
          //  you can add extra buttons here.
       // ]
+    },
+    {
+      image: require("./assets/images/passwordLogo.png"),
+      projectName: "Corrix Pass M",
+      projectDesc: "Application de gestion de mots de passe sécurisée développée en angular et Firebase",
+      footerLink: [
+        {
+          name: "Visiter le site",
+          url: "https://corrix-pass-manage.vercel.app/"
+        }
+          // you can add extra buttons here.
+      ]
     },
     {
       image: require("./assets/images/corrixaiLogo.png"),
@@ -324,6 +368,19 @@ const achievementSection = {
         {
           name: "Voir le certificat",
           url: "https://bit.ly/4oEP35k"
+        }
+      ]
+    },
+    {
+      title: "FreeCodeCamp JavaScript",
+      subtitle:
+        "Certificat de développement JavaScript",
+      image: require("./assets/images/logoFreeCode.webp"),
+      imageAlt: "FreeCodeCamp Logo",
+      footerLink: [
+        {
+          name: "Voir le certificat",
+          url: "https://www.freecodecamp.org/certification/massamba-jav/javascript-v9"
         }
       ]
     }

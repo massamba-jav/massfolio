@@ -337,7 +337,7 @@ const bigProjects = {
     {
       image: require("./assets/images/corrixaiLogo.png"),
       projectName: "Corrix AI",
-      projectDesc: "Chatbot IA basé sur les services GROQ",
+      projectDesc: "Application mobile d'un chatbot IA basé sur les services GROQ et développée en Flutter",
       // footerLink: [
       //   {
       //     name: "Visit Website",

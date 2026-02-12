@@ -201,6 +201,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "java",
       fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -344,6 +348,17 @@ const bigProjects = {
       //     url: "http://nextu.se/"
       //   }
       // ]
+    },
+    {
+      image: require("./assets/images/linksnapLogo.png"),
+      projectName: "LinkSnap",
+      projectDesc: "Application de transfert rapide de fichiers ou images entre appareils via QR code ou lien, développée en Next.js et Express",
+      footerLink: [
+        {
+          name: "Visiter le site",
+          url: "https://linksnap-front.vercel.app/"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true

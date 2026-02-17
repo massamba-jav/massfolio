@@ -205,6 +205,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "nextjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "alpine",
+      fontAwesomeClassname: "fab fa-alpine"
     }
   ],
   display: true // Set false to hide this section, defaults to true

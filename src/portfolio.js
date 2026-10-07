@@ -57,9 +57,9 @@ const skillsSection = {
     emoji(
       "⚡ Concevoir des interfaces utilisateur interactives pour le web et le mobile"
     ),
-    emoji("⚡ Applications Web Progressives (PWA) et single-page apps (SPA)"),
+    emoji("⚡ Applications Web et single-page apps (SPA)"),
     emoji(
-      "⚡ Intégration de services tiers comme Firebase"
+      "⚡ Intégration de services tiers comme Firebase et Supabase"
     )
   ],
 
@@ -114,6 +114,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-leaf"
     },
     {
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+    {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git"
     },
@@ -134,6 +138,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "supabase",
+      fontAwesomeClassname: "fas fa-leaf"
     },
     {
       skillName: "python",
@@ -226,7 +234,7 @@ const educationInfo = {
     {
       schoolName: "Amadou Hampaté Bâ University",
       logo: require("./assets/images/uahbLogo.png"),
-      subHeader: "Licence en Science et Technologies de l'Information et de la Communication",
+      subHeader: "(MAJOR) Licence en Science et Technologies de l'Information et de la Communication",
       duration: "Spécialité Informatique",
       desc: "Novembre 2023 - Présent",
       descBullets: []
@@ -249,11 +257,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "75%" //Insert relative proficiency in percentage
+      progressPercentage: "87%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "75%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
@@ -311,6 +319,28 @@ const bigProjects = {
   subtitle: "Certains de mes projets importants réalisés en autonomie",
   projects: [
     {
+      image: require("./assets/images/sg.png"),
+      projectName: "Sengameshop",
+      projectDesc: "Application E-commerce de gestion de stock et ventes de matériels gaming de la  boutique de Sengamshop, développée avec Next.js , Express et Supabase",
+      footerLink: [
+        {
+          name: "Visiter le site",
+          url: "https://www.sengameshop.com/"
+        },
+      ]
+    },
+    {
+      image: require("./assets/images/gamespot.jpeg"),
+      projectName: "GameSpot",
+      projectDesc: "Application de gestion des ventes de matériels gaming de la  boutique de Gamespot, développée avec Next.js , Express et Supabase",
+      footerLink: [
+        {
+          name: "Visiter le site",
+          url: "https://www.gamespotsn.com/"
+        },
+      ]
+    },
+    {
       image: require("./assets/images/thumblifyLogo.jpg"),
       projectName: "Thumblify",
       projectDesc: "Application de génération de miniatures de vidéos avec IA , développée avec MERN Stack",
@@ -359,7 +389,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/linksnapLogo.png"),
-      projectName: "LinkSnap",
+      projectName: "LinkSnap (Collaboration)",
       projectDesc: "Application de transfert rapide de fichiers ou images entre appareils via QR code ou lien, développée en Next.js et Express",
       footerLink: [
         {

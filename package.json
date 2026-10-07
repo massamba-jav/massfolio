@@ -8,6 +8,8 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.1",
     "@testing-library/user-event": "^13.5.0",
+    "baseline-browser-mapping": "^2.11.27",
+    "caniuse-lite": "^1.0.30001815",
     "colorthief": "^2.6.0",
     "lottie-react": "^2.4.1",
     "react": "^18.2.0",
